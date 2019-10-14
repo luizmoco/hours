@@ -21,7 +21,7 @@ function time() {
     }
     const falta = sub(quantidadeDeHoras, add(turnoTarde, turnoManha));
 
-    const humor = new Number(falta.split(":")[0]) > 1 ? "Tristeza :D" : "Alegria :)";
+    const humor = new Number(falta.split(":")[0]) > 1 ? "Tristeza :(" : "Alegria :)";
 
     const str = `<div class="modal-header">
     <h2 class="modal-title" id="exampleModalLabel">${humor}</h2>
