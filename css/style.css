@@ -15,21 +15,22 @@ b {
 }
 
 .div-left {
-    padding-top: 15px;
+    padding: 16px;
     float: left;
-    width: 25%;
+    width: 30%;
 }
 
 .div-center {
     display: inline-block;
     margin: 0 auto;
-    width: 25%;
+    padding: 16px;
+    width: 40%;
 }
 
 .div-right {
-    padding-top: 15px;
+    padding: 16px;
     float: right;
-    width: 25%;
+    width: 30%;
 }
 
 .div-container {
@@ -37,6 +38,7 @@ b {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-bottom: 16px;
 }
 
 .time {
